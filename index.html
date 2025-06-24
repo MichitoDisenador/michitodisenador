@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Diseñador Gráfico e Ilustrador</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #ffd41e;
+            --secondary: #afcfe8;
+            --dark-bg: #0d1117;
+            --light-bg: #ffffff;
+            --dark-text: #1a1a1a;
+            --light-text: #f0f0f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            line-height: 1.6;
+            transition: background 0.3s ease;
+        }
+
+        body.light-mode {
+            background-color: var(--light-bg);
+            color: var(--dark-text);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        body.light-mode header {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--light-text);
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        body.light-mode .theme-toggle {
+            color: var(--dark-text);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: var(--primary);
+            color: #000;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 212, 30, 0.3);
+        }
+
+        .btn-secondary {
+            background: var(--secondary);
+            color: #000;
+        }
+
+        .btn-secondary:hover {
+            box-shadow: 0 10px 20px rgba(175, 207, 232, 0.3);
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        body.light-mode .project-card {
+            background: rgba(0, 0, 0, 0.05);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-info {
+            padding: 1.5rem;
+        }
+
+        .project-info h3 {
+            margin-bottom: 0.5rem;
+            color: var(--primary);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .social-links a {
+            color: var(--light-text);
+            font-size: 1.5rem;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        body.light-mode .social-links a {
+            color: var(--dark-text);
+        }
+
+        .social-links a:hover {
+            color: var(--primary);
+            transform: scale(1.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        body.light-mode footer {
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Portfolio</div>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </header>
+
+        <section class="hero">
+            <h1>Diseñador Gráfico & Ilustrador</h1>
+            <p>Creando experiencias visuales únicas con pasión y creatividad. Especializado en branding, ilustración digital y diseño de interfaces.</p>
+            <div>
+                <a href="#projects" class="btn">Ver Proyectos</a>
+                <a href="#contact" class="btn btn-secondary">Contacto</a>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 style="text-align: center; margin-bottom: 2rem; color: var(--secondary);">Mis Trabajos</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/600x400/ffd41e/000000?text=Proyecto+1" alt="Proyecto 1">
+                    <div class="project-info">
+                        <h3>Branding Café</h3>
+                        <p>Diseño de identidad visual para una marca de café artesanal.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/600x400/afcfe8/000000?text=Proyecto+2" alt="Proyecto 2">
+                    <div class="project-info">
+                        <h3>Ilustración Digital</h3>
+                        <p>Serie de ilustraciones para un libro infantil.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/600x400/ffd41e/000000?text=Proyecto+3" alt="Proyecto 3">
+                    <div class="project-info">
+                        <h3>Diseño de App</h3>
+                        <p>Interfaz de usuario para una aplicación de música.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="social-links">
+                <a href="https://github.com/tuusuario" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>
+                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:tuemail@ejemplo.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 | Diseñado con ❤️ por <span style="color: var(--primary);">Tú</span></p>
+        </footer>
+    </div>
+
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('light-mode');
+            const icon = themeToggle.querySelector('i');
+            if (body.classList.contains('light-mode')) {
+                icon.classList.replace('fa-moon', 'fa-sun');
+            } else {
+                icon.classList.replace('fa-sun', 'fa-moon');
+            }
+        });
+    </script>
+</body>
+</html>

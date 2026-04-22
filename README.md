@@ -7,19 +7,16 @@
   <p>I enjoy building visual systems that are not only aesthetically powerful, but also functional and adaptable across platforms.</p>
   <br>
   <h3>🛠 Tecnologías y Herramientas</h3>
-
-  <!-- Contenedor que fuerza una sola línea horizontal, juntitos -->
-  <div style="display: flex; flex-direction: row; flex-wrap: nowrap; gap: 4px; align-items: center; overflow-x: auto;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" width="40" height="40" title="Illustrator"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" width="40" height="40" title="Photoshop"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" width="40" height="40" title="After Effects"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="40" height="40" title="Figma"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" height="40" title="HTML5"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" height="40" title="CSS3"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="40" height="40" title="TypeScript"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width="40" height="40" title="Notion"/>
-    <img src="https://cdn.simpleicons.org/openai/74aa9c" width="40" height="40" title="ChatGPT"/>
-    <img src="https://cdn.simpleicons.org/midjourney/000000" width="40" height="40" title="MidJourney"/>
-    <img src="https://cdn.simpleicons.org/microsoftoffice/D83B01" width="40" height="40" title="Microsoft Office"/>
-  </div>
-</div>
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" width="40" height="40" title="Illustrator"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" width="40" height="40" title="Photoshop"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" width="40" height="40" title="After Effects"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="40" height="40" title="Figma"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" height="40" title="HTML5"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" height="40" title="CSS3"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="40" height="40" title="TypeScript"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" width="40" height="40" title="Notion"/> 
+  <img src="https://cdn.simpleicons.org/openai/74aa9c" width="40" height="40" title="ChatGPT"/> 
+  <img src="https://cdn.simpleicons.org/midjourney/000000" width="40" height="40" title="MidJourney"/> 
+  <img src="https://cdn.simpleicons.org/microsoftoffice/D83B01" width="40" height="40" title="Microsoft Office"/>
+</p>

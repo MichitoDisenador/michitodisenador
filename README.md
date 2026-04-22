@@ -1,5 +1,7 @@
 <div align="Left">
   <br>
+  <img src="banner github-01.png" alt="Banner de Paola Herrera Sol - Graphic Designer & Illustrator" width="100%">
+  <br>
   <h1>👩‍🎨 Paola Herrera Sol</h1>
   <h3>Graphic Designer & Illustrator</h3>
   <p>Hi, I’m Paola Herrera Sol — a Graphic Designer & Illustrator focused on creating bold visual experiences that connect brands with people.</p>
@@ -12,7 +14,3 @@
     <img src="https://skillicons.dev/icons?i=illustrator,photoshop,aftereffects,figma,html,css,tailwind,js,github,notion,sass&perline=12" />
   </a>
 </p>
-
-  </a>
-</p>
-<br>

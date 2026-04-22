@@ -1,19 +1,15 @@
 <div align="Left">
   <br>
   <h1>👩‍🎨 Paola Herrera Sol</h1>
-
   <h3>Graphic Designer & Illustrator</h3>
   <p>Hi, I’m Paola Herrera Sol — a Graphic Designer & Illustrator focused on creating bold visual experiences that connect brands with people.</p>
-
   <p>I specialize in social media design, branding, and digital illustration, combining strategy with creativity to turn ideas into meaningful visual communication. My work blends strong composition, expressive illustration, and a structured approach to content planning.</p>
-
   <p>I enjoy building visual systems that are not only aesthetically powerful, but also functional and adaptable across platforms.</p>
-
   <br>
   <h3>🛠 Tecnologías y Herramientas</h3>
-  
-  <!-- Contenedor flex para íconos horizontales -->
-  <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
+
+  <!-- Contenedor que fuerza una sola línea horizontal, juntitos -->
+  <div style="display: flex; flex-direction: row; flex-wrap: nowrap; gap: 4px; align-items: center; overflow-x: auto;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" width="40" height="40" title="Illustrator"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" width="40" height="40" title="Photoshop"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" width="40" height="40" title="After Effects"/>

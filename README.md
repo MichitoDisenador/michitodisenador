@@ -23,6 +23,7 @@
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=illustrator,photoshop,aftereffects,figma,html,css,tailwind,js,github,notion,sass&perline=12" />
     <h2>Proyects</h2>
+    <div>
     ### 🐱 Coffee Cat Runner
 Un divertido juego donde un gato necesita correr y saltar para conseguir su café. ¡Pon a prueba tus reflejos!
 
@@ -36,7 +37,7 @@ Un divertido juego donde un gato necesita correr y saltar para conseguir su caf�
 [![Próximamente](https://img.shields.io/badge/⏳_PRÓXIMAMENTE-afcfe8?style=for-the-badge)](#)
 
 > 🚧 En desarrollo... ¡Pronto disponible!
-
+</div>
 ---
   </a>
 </p>

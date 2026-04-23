@@ -11,6 +11,9 @@
   <div align="center">
 <a href="https://michitodisenador.github.io/michito_disenador_portafolio/contac.html">
   <img src="https://img.shields.io/badge/📩_CONTÁCTAME_AQUÍ-ffd41e?style=for-the-badge&logoColor=black" alt="Contáctame">
+  <a href="https://michitodisenador.github.io/michito_disenador_portafolio/portfolio.html">
+  <img src="https://img.shields.io/badge/🖼️_VER_PORTAFOLIO-afcfe8?style=for-the-badge&logo=behance&logoColor=black" alt="Portafolio">
+</a>
 </a>
 </div>
   </p>

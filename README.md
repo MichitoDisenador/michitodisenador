@@ -26,7 +26,7 @@
     <div>
 
 ### 🐱 Coffee Cat Runner
-Un divertido juego donde un gato necesita correr y saltar para conseguir su café. ¡Pon a prueba tus reflejos!
+Un divertido juego donde un gato necesita correr y saltar para luchar contra su adicción a la cafeína. ¡Pon a prueba tus reflejos!
 
 [![Jugar ahora](https://img.shields.io/badge/▶️_JUGAR_AHORA-ffd41e?style=for-the-badge)](https://michitodisenador.github.io/coffee-cat-runner/)
 

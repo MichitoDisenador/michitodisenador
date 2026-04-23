@@ -12,13 +12,7 @@
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=illustrator,photoshop,aftereffects,figma,html,css,tailwind,js,github,notion,sass&perline=12" />
-    <h2>Contact me</h2>
     <div align="center">
-  
-# 🎨 Michito Diseñador
-
-## ¿Necesitas diseño gráfico o ilustración?
-
 <a href="https://michitodisenador.github.io/michito_disenador_portafolio/contac.html">
   <img src="https://img.shields.io/badge/📩_CONTÁCTAME_AQUÍ-ffd41e?style=for-the-badge&logo=whatsapp&logoColor=black" alt="Contáctame">
 </a>

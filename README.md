@@ -24,7 +24,8 @@
     <img src="https://skillicons.dev/icons?i=illustrator,photoshop,aftereffects,figma,html,css,tailwind,js,github,notion,sass&perline=12" />
     <h2>Proyects</h2>
     <div>
-    ### 🐱 Coffee Cat Runner
+
+### 🐱 Coffee Cat Runner
 Un divertido juego donde un gato necesita correr y saltar para conseguir su café. ¡Pon a prueba tus reflejos!
 
 [![Jugar ahora](https://img.shields.io/badge/▶️_JUGAR_AHORA-ffd41e?style=for-the-badge)](https://michitodisenador.github.io/coffee-cat-runner/)

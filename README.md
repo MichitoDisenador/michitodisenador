@@ -10,9 +10,9 @@
   </br>   
   <div align="center">
 <a href="https://michitodisenador.github.io/michito_disenador_portafolio/contact.html">
-  <img src="https://img.shields.io/badge/📩_CONTÁCTAME_AQUÍ-ffd41e?style=for-the-badge&logoColor=black" alt="Contáctame">
+  <img src="https://img.shields.io/badge/📩_CONTACT ME-ffd41e?style=for-the-badge&logoColor=black" alt="Contáctame">
   <a href="https://michitodisenador.github.io/michito_disenador_portafolio/portfolio.html">
-  <img src="https://img.shields.io/badge/🖼️_VER_PORTAFOLIO-afcfe8?style=for-the-badge&logoColor=black" alt="Portafolio">
+  <img src="https://img.shields.io/badge/🖼️_PORTFOLIO-afcfe8?style=for-the-badge&logoColor=black" alt="Portafolio">
 </a>
 </a>
 </div>
@@ -26,18 +26,18 @@
     <div>
 
 ### 🐱 Coffee Cat Runner
-Un divertido juego donde un gato necesita correr y saltar para luchar contra su adicción a la cafeína. ¡Pon a prueba tus reflejos!
+A fun game where a cat needs to run and jump to fight its caffeine addiction. Test your reflexes!
 
 [![Jugar ahora](https://img.shields.io/badge/▶️_JUGAR_AHORA-ffd41e?style=for-the-badge)](https://michitodisenador.github.io/coffee-cat-runner/)
 
 ---
 
-### 🐱‍👤 Todos alaben a Hipno Gato
-*Próximamente* - Una animación hipnótica y divertida protagonizada por un gato muy especial.
+### 🐱‍👤 Everyone Love Bunta
+*Coming Soon* - A hypnotic and fun animation starring a very special cat.
 
-[![Próximamente](https://img.shields.io/badge/⏳_PRÓXIMAMENTE-afcfe8?style=for-the-badge)](#)
+[![Coming Soon](https://img.shields.io/badge/⏳_COOMING_SOON-afcfe8?style=for-the-badge)](#)
 
-> 🚧 En desarrollo... ¡Pronto disponible!
+> 🚧 In development... Coming soon!
 </div>
 ---
   </a>

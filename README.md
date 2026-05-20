@@ -18,7 +18,7 @@
 </div>
   </p>
   <br>
-<h2>Herramientas</h2>
+<h2>Tools</h2>
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=illustrator,photoshop,aftereffects,figma,html,css,tailwind,js,github,notion,sass&perline=12" />
